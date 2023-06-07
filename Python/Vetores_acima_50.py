@@ -10,7 +10,7 @@ while i <= 10:
     i += 1
     if valor > 50:
         acima_50.append(valor)
-        print(f"Número superior a 50 na posição {i}")
+        print(f"Número {valor} superior a 50 na posição {i}.")
         
 if not acima_50:
     print("Nenhum número superior a 50.")
